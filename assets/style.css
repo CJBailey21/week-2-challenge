@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: black;
+    font-family: sans-serif;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-bar .head1 {
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+
+.top-bar a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none; 
+    font-size: 25px;
+}
+
